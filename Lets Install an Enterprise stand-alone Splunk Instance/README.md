@@ -11,5 +11,5 @@ TO download the Splunk Zip file, create an account with Splunk, go to your accou
 <br>
 <br>
 To download Splunks training data which we will use as index for Mock data in this Lab we will goto Splunk's website and download the training material they provided, to get these data search "seach tutorial" it's a bit difficult to find but thse are what to download  
-![Screenshot of download search tutorial]()
+![Screenshot of download search tutorial](Splunk-lab-Projects/screenshotoftutorial.png)
  
