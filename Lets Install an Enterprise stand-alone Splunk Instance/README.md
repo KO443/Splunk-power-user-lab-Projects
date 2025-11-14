@@ -8,4 +8,7 @@ We will start first by downloading the Splunk enterprise app and then some tutor
 <br>
 <br>
 TO download the Splunk Zip file, create an account with Splunk, go to your accounts dashboard, Unser "Free trials & downloads" or "Splunk Platform", select Splunk Enterprise which is the instance we are downloading and then select your device OS and download the File.
+<br>
+<br>
 To download Splunks training data which we will use as index for Mock data in this Lab we will goto Splunk's website and download the training material they provided, to get these data search "seach tutorial" it's a bit difficult to find but thse are what to download
+ 
