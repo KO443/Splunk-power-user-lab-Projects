@@ -1,3 +1,5 @@
 in this repo we will be downloading splunk from the company's trusted website and unzippling the file.
 <br>
 The Splunk Enterprise app comes with a 60-day trial; even after your free trial finishes, you can still continue searching your data, building dashboards, creating reports, and practicing SPL. All your indexed data remains accessible, and you can keep developing hands-on projects. The only major limitation is that scheduled searches, alerts, user accounts, and some enterprise-level features are disabled once the trial ends.
+<br>
+We will start first by downloading the Splunk enterprise app and then some tutorial
