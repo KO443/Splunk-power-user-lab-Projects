@@ -1,4 +1,4 @@
-In this repository, I will download Splunk Enterprise directly from the official Splunk website and extract the installation package.
+**In this repository, I demonstrate the setup and configuration of Splunk Enterprise. This includes downloading Splunk Enterprise from the official website, extracting the installation package, installing two add-ons, uploading raw data, creating indexes, and assigning sourcetypes to each uploaded file.**
 <br>
 <br>
 <br>
