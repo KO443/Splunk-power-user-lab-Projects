@@ -83,7 +83,6 @@ After uploadinh these raw data, i will upload Cisco iron Port file and change so
 <br>
 <br>
 Now i have uploaded all my practice data and created my indexes. We will do an SPL serach to see all our indexes, host, source type and source.
-- this search shows all our 4 hosts (www1,2,3 & cisco iron port), our 3 indexes (web,security,cisco), 3 sourctypes (access_combined, linux_secure,cisco wsa) and 3 sources ()
-<br>
+- this search shows all our 4 hosts (www1,2,3 & cisco iron port), our 3 indexes (web,security,cisco), 3 sourctypes (access_combined, linux_secure,cisco wsa) and 3 sources
 - performed an SPL search using the time range 'all time' so see all my slected fields (data that i parsed into mysplunks disk so far)
 ![screenshot of index all time](https://github.com/KO443/Splunk-lab-Projects/blob/main/Images/1q.png?raw=true)
