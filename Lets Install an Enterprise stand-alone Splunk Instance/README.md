@@ -55,7 +55,17 @@ install these 2 add ons:
 ![screenshot_ of cisco unix &linux addon](https://github.com/KO443/Splunk-lab-Projects/blob/main/Images/1d.png?raw=true)
 <br> 
 <br>
-*In Splunk, we will *
-
 The benefit of these two add-ons is that the Cisco WSA add-on cleanly parses and structures web proxy logs for better visibility into user web activity, while the Unix & Linux add-on collects and normalizes system logs and performance metrics to make server monitoring easier and CIM-aligned.
+<br> 
+<br>
+- In Splunk,go to 'Settings', then 'Add data' and then select 'Upload'
+- the host field name field should be the title of the raw data for eg: 
+![screenshot of host field name](https://github.com/KO443/Splunk-lab-Projects/blob/main/Images/1F.png?raw=true)
+
+- we first upload www1, then www2 and www3. these 3 raw files should be created with an index of 'web' and their source type should be 'access.log' and we upload the same file again assigninh index of 'security' and source type'linux_secure'.
+- this will take some minutes because the each file from www1 to www3 will be uploaded twice
+<br> 
+after these process the reciew of each raw data before you submit will look like these:
+
+
 
