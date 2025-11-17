@@ -65,7 +65,9 @@ The benefit of these two add-ons is that the Cisco WSA add-on cleanly parses and
 - we first upload www1, then www2 and www3. these 3 raw files should be created with an index of 'web' and their source type should be 'access.log' and we upload the same file again assigninh index of 'security' and source type'linux_secure'.
 - this will take some minutes because the each file from www1 to www3 will be uploaded twice
 <br> 
-after these process the reciew of each raw data before you submit will look like these:
+after these processes the review of each raw data before you submit will look like these:
+- www1
+![screenshot of 1 review](https://github.com/KO443/Splunk-lab-Projects/blob/main/Images/1H.png?raw=true)
 
 
 
