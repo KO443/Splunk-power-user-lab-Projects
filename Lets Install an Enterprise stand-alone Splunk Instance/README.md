@@ -35,4 +35,27 @@ From the screenshot below, i dowloaded tutorialdata.zip file which is vital for 
 ![Screenshot of download search tutorial](https://github.com/KO443/Splunk-lab-Projects/blob/main/Images/screenshotoftutorial.png?raw=true)
 <br> 
 <br> 
-After 
+After downloading the tutorial data zip. You unzip the file and it has our practice data which conians files: www1,www2,www3,cisco iron port  and a mock data.
+![screenshot_ of practice data](https://github.com/KO443/Splunk-lab-Projects/blob/main/Images/practice%20data.png?raw=true)
+<br> 
+<br> 
+now i will be downloading 2 cisco addons to my splunk emvironment
+<br> 
+<br> 
+In Splunk, at the top left,go to "find more apps"
+![screenshot_ of findmoreapps](https://github.com/KO443/Splunk-lab-Projects/blob/main/Images/1b.png?raw=true)
+<br> 
+<br> 
+install these 2 add ons:
+<br> 
+<br>
+![screenshot_ of cisco wsa addon](https://github.com/KO443/Splunk-lab-Projects/blob/main/Images/1c.png?raw=true)
+<br> 
+<br>
+![screenshot_ of cisco unix &linux addon](https://github.com/KO443/Splunk-lab-Projects/blob/main/Images/1d.png?raw=true)
+<br> 
+<br>
+*In Splunk, we will *
+
+The benefit of these two add-ons is that the Cisco WSA add-on cleanly parses and structures web proxy logs for better visibility into user web activity, while the Unix & Linux add-on collects and normalizes system logs and performance metrics to make server monitoring easier and CIM-aligned.
+
