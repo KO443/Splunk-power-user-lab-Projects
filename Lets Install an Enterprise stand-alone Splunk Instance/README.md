@@ -67,7 +67,7 @@ The benefit of these two add-ons is that the Cisco WSA add-on cleanly parses and
 <br> 
 after these processes the review of each raw data before you submit will look like these:
 - www1
-![screenshot of 1 review](https://github.com/KO443/Splunk-lab-Projects/blob/main/Images/1H.png?raw=true)
+![screenshot of 1 review](https://github.com/KO443/Splunk-lab-Projects/blob/main/Images/1F.png?raw=true)
 
 
 
