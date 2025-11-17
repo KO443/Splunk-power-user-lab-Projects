@@ -1,4 +1,4 @@
-In this repository, we will download Splunk Enterprise directly from the official Splunk website and extract the installation package.
+In this repository, I will download Splunk Enterprise directly from the official Splunk website and extract the installation package.
 <br>
 <br>
 <br>
@@ -21,7 +21,18 @@ Under “Free Trials & Downloads” or “Splunk Platform,” select Splunk Ente
 Choose your operating system and download the installer.
 <br>
 <br>
+After installing splunk and setting up your username and password, the login page is ready and it looks like this 
+![Screenshot of Splunk login](https://github.com/KO443/Splunk-lab-Projects/blob/main/Images/1a.png?raw=true)
+<br>
+<br>
+From here i will still have to dowload the raw data which i will use for my splunk project, the data is is splunks website and i will download 2 splunk add ons from Splunk and then i will add all these raw data to splunk in this page.
+<br>
 <br>
 To download Splunk’s training data for use as mock data in this lab, go to Splunk’s website and search for “search tutorial.” The tutorial files can be difficult to locate, but these are the correct training datasets to download.
 <br> 
+<br> 
+From the screenshot below, i dowloaded tutorialdata.zip file which is vital for this project and the prices.csv.zip which will come in handly for a Dashboard project later in this repo.
 ![Screenshot of download search tutorial](https://github.com/KO443/Splunk-lab-Projects/blob/main/Images/screenshotoftutorial.png?raw=true)
+<br> 
+<br> 
+After 
