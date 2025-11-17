@@ -74,8 +74,13 @@ after these processes the review of each raw data before you submit will look li
 ![screenshot of www2 review](https://github.com/KO443/Splunk-lab-Projects/blob/main/Images/1K.png?raw=true)
 ![screenshot of www2 review](https://github.com/KO443/Splunk-lab-Projects/blob/main/Images/1L.png?raw=true)
 -www3
-![screenshot of ](https://github.com/KO443/Splunk-lab-Projects/blob/main/Images/1M.png?raw=true)
+![screenshot of www3 review](https://github.com/KO443/Splunk-lab-Projects/blob/main/Images/1M.png?raw=true)
+![screenshot of www3 review](https://github.com/KO443/Splunk-lab-Projects/blob/main/Images/1N.png?raw=true)
 
-
-
+After uploadinh these raw data, i will upload Cisco iron Port file and change source type to 'CISCO:WSA:SQUID', this is where extension comein handy to correctly parse this data. 
+![screenshot of cisco source type](https://github.com/KO443/Splunk-lab-Projects/blob/main/Images/1o.png?raw=true)
+![screenshot of cisco review](https://github.com/KO443/Splunk-lab-Projects/blob/main/Images/1p.png?raw=true)
+<br>
+<br>
+Now i have uploaded all my practice data and created my indexes. We will do an SPL serach to see all our indexes, host, source type and source.
 
