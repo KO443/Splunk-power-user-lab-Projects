@@ -1,4 +1,4 @@
-**# Splunk-lab-Projects**
+**# Splunk-lab-Project**
 
 I created this hands-on Splunk lab projects after my certified Splunk Core Power User certification showcasing variety of Splunk features and capabilities.
 <br>
