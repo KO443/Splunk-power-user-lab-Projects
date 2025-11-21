@@ -84,5 +84,9 @@ After uploadinh these raw data, i will upload Cisco iron Port file and change so
 <br>
 Now i have uploaded all my practice data and created my indexes. We will do an SPL serach to see all our indexes, host, source type and source.
 - this search shows all our 4 hosts (www1,2,3 & cisco iron port), our 3 indexes (web,security,cisco), 3 sourctypes (access_combined, linux_secure,cisco wsa) and 3 sources
-- performed an SPL search using the time range 'all time' so i can see all my slected fields (data that i parsed into mysplunks disk so far)
+- Performed an SPL search using index=* with the All Time range to view all events across every index.
+In Splunk, **index=** specifies which index to search, and * acts as a wildcard meaning "everything", so Index=* “search all indexes.”
+This allowed me to review all currently ingested data and verify the fields I have parsed into Splunk’s indexers so far.
+
+
 ![screenshot of index all time](https://github.com/KO443/Splunk-lab-Projects/blob/main/Images/1q.png?raw=true)
