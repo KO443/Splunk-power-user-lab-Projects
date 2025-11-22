@@ -59,7 +59,7 @@ Key characteristics
 **One key tip i learned in my splunk course is that single quote seraches field names while double quote searches field values** for eg: "fail" searches for fail in field values while 'fail' would have searched for fields titled **fail**
 <br>
 <br>
-This search string below i used transforming commands stats & fillnull. I searched into my security index, stats is a transforming command, because it aggregates and reshapes the field (user) as "Login Name". The **Value** function will Collects all unique users per IP address (src) and displays them in a single row, **count** function will count the total number of occurences of user per Ip address (src) and **by** which is a boolean operator in this serach string will group results by src so each row represents a different source.
+This search string below i used transforming commands stats & fillnull. I searched into my security index, stats is a transforming command, because it aggregates and reshapes the field (user) as "Login Name". The **Value** function will Collects all unique users per IP address (src) and displays them in a single row, **count** function will count the total number of occurences of user per Ip address (src) and **by** which is a boolean operator in this search string will group results by src so each row represents a different source.
 
 ![screenshot of another transforming string](https://github.com/KO443/Splunk-lab-Projects/blob/main/Images/3e.png?raw=true)
 ![screenshot of another transforming stringresult](https://github.com/KO443/Splunk-lab-Projects/blob/main/Images/3d.png?raw=true)
