@@ -15,6 +15,10 @@ In Splunk, we use regex for extracting fields from unstructured data and delimit
 
 ![Screenshot of event actions](https://github.com/KO443/Splunk-power-user-lab-Projects/blob/main/Images/4b.png?raw=true)
 
-After clicking select field, a new page opens for you to slect method of extraction between Regular expression and Delimeters. I will be doing a short demo of both in this lab
+After selecting Extract Fields, a new page opens where you can choose the extraction method between either Regular Expression or Delimiters. In this lab, I’ll provide a short demonstration of both approaches.
 
-https://github.com/KO443/Splunk-power-user-lab-Projects/blob/main/Images/4bi.png?raw=true
+![screenshot of delimeter or RegEx](https://github.com/KO443/Splunk-power-user-lab-Projects/blob/main/Images/4bi.png?raw=true)
+
+When you choose the **Delimiters** method, you can click any of the automatically generated fields (e.g., field1, field2, field3) and rename them. For example, if field3 represents the client IP, you can rename it to **clientip**. After updating the names, clicking **Next** saves the fields with their new labels.
+
+![screenshot of delimeter rename](https://github.com/KO443/Splunk-power-user-lab-Projects/blob/main/Images/4ci.png?raw=true)
