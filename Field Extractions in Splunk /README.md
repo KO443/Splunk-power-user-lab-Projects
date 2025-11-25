@@ -22,3 +22,10 @@ After selecting Extract Fields, a new page opens where you can choose the extrac
 When you choose the **Delimiters** method, you can click any of the automatically generated fields (e.g., field1, field2, field3) and rename them. For example, if field3 represents the client IP, you can rename it to **clientip**. After updating the names, clicking **Next** saves the fields with their new labels.
 
 ![screenshot of delimeter rename](https://github.com/KO443/Splunk-power-user-lab-Projects/blob/main/Images/4ci.png?raw=true)
+
+Returning to the point where you choose between **Delimiters** or **Regular Expression**, selecting **Regular Expression** (via Event Actions,Extract Fields) leads you to the field-extraction naming step. 
+
+From here, creating a regex-based extraction is simple: highlight the value you want to extract and assign it a field name. For example, in the screenshot, I highlighted the IP address and named it accordingly, and I also highlighted the string **GET** and labeled it as the **method** field, and i also highlighthere the url in the screenshot and named it as **domain**.
+
+![screenshot of Reg Ex renaming](https://github.com/KO443/Splunk-power-user-lab-Projects/blob/main/Images/4c.png?raw=true)
+![screenshot of url rename](https://github.com/KO443/Splunk-power-user-lab-Projects/blob/main/Images/4eiii.png?raw=true)
