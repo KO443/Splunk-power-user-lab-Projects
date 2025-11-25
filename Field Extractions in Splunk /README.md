@@ -25,7 +25,25 @@ When you choose the **Delimiters** method, you can click any of the automaticall
 
 Returning to the point where you choose between **Delimiters** or **Regular Expression**, selecting **Regular Expression** (via Event Actions,Extract Fields) leads you to the field-extraction naming step. 
 
-From here, creating a regex-based extraction is simple: highlight the value you want to extract and assign it a field name. For example, in the screenshot, I highlighted the IP address and named it accordingly, and I also highlighted the string **GET** and labeled it as the **method** field, and i also highlighthere the url in the screenshot and named it as **domain**.
+From here, creating a regex-based extraction is simple: highlight the value you want to extract and assign it a field name. For example, in the screenshot, I highlighted the IP address and named it accordingly, and I also highlighted the string **GET** and labeled it as the **method** field, and also highlighted the URL and named it **domain**.
 
 ![screenshot of Reg Ex renaming](https://github.com/KO443/Splunk-power-user-lab-Projects/blob/main/Images/4c.png?raw=true)
 ![screenshot of url rename](https://github.com/KO443/Splunk-power-user-lab-Projects/blob/main/Images/4eiii.png?raw=true)
+
+After clicking **Next**, the following step is to **validate** the field extraction. In this example, my three extracted fields:** IP, method, and domain** are displayed and color-coded, making it easy to confirm that each value was correctly identified. {open image in a new tab to see HD version}
+![color coded field extraction](https://github.com/KO443/Splunk-power-user-lab-Projects/blob/main/Images/4d.png?raw=true)
+
+then Click next to save, name the extraction and assign permissions to the Extraction.
+![screenshot of save extraction](https://github.com/KO443/Splunk-power-user-lab-Projects/blob/main/Images/4e.png?raw=true)
+
+4.In this part of the lab, I will use the rex command in Splunk to extract fields from the data. The main challenge here is crafting the correct regular expressions (regex) to accurately extract the desired fields. Udemy instructor Hailee Shaw demonstrated how to use this site **https://regex101.com/** an online tool that helps build, test, and debug regular expressions, making it easier to identify powerful patterns for matching text.
+<br>
+<br>
+I entered a search string using rex command in the index of cisco. In this Search string i used regular expressions that will pull emails from raw events and create a field for emails.
+
+![screenshot of erex cmd](https://github.com/KO443/Splunk-power-user-lab-Projects/blob/main/Images/4f.png?raw=true)
+
+**The regex expression (?<email>"\s+@\s+.com") In this regex, (?<email>...) defines a named capture group called email, which stores the matched content. The \S+ matches one or more non-whitespace characters for both the username and domain parts of the email, @ matches the literal @ symbol, and \.com matches the .com at the end of the email, with the backslash escaping the dot so it is treated literally rather than as “any character.”**
+
+
+
