@@ -41,9 +41,15 @@ then Click next to save, name the extraction and assign permissions to the Extra
 <br>
 I entered a search string using rex command in the index of cisco. In this Search string i used regular expressions that will pull emails from raw events and create a field for emails.
 
-![screenshot of erex cmd](https://github.com/KO443/Splunk-power-user-lab-Projects/blob/main/Images/4f.png?raw=true)
-
+![screenshot of rex cmd](https://github.com/KO443/Splunk-power-user-lab-Projects/blob/main/Images/4h.png?raw=true)
+![screenshot of rex cmd2](https://github.com/KO443/Splunk-power-user-lab-Projects/blob/main/Images/4gi.png?raw=true)
 **The regex expression (?<email>"\s+@\s+.com") In this regex, (?<email>...) defines a named capture group called email, which stores the matched content. The \S+ matches one or more non-whitespace characters for both the username and domain parts of the email, @ matches the literal @ symbol, and \.com matches the .com at the end of the email, with the backslash escaping the dot so it is treated literally rather than as “any character.”**
+
+Pro Tip: Regular expressions can also be seen  after saving a field for eg using the **Event Action** dropdown, **Extract Fields**  Then** Regular Expressions**, pick a format in the field and save and then click on **show expressions** to see the regex expression of that format.
+
+In screenshot below,i selected an email format and it displayed its regex expression below {open image in a new tab to see HD version}
+![screenshot of RegEX](https://github.com/KO443/Splunk-power-user-lab-Projects/blob/main/Images/4z.png?raw=true)
+
 
 
 
