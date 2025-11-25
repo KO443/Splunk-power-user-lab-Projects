@@ -7,9 +7,12 @@ In Splunk, we use regex for extracting fields from unstructured data and delimit
 1. One manual way to extract fields in Splunk is through the GUI by navigating to Settings → Fields → Field Extractions → Open Field Extractor. This workflow launches Splunk’s Field Extractor (FX), a guided tool that helps you create new field extractions without writing SPL. It allows you to choose sample events, highlight the values you want to extract, and automatically generates the appropriate regex or delimiter-based pattern. Once saved, the extraction becomes a reusable knowledge object that Splunk applies at search time across matching events.
 
 
+
 2. Another way to extract fields is by searching an index for eg: **index=cisco** uand scrolling to the bottom of the Fields tab, where you’ll find the + Extract New Fields option on the left side of the screen.
 
 ![Screenshot of extract new fields](https://github.com/KO443/Splunk-power-user-lab-Projects/blob/main/Images/4a.png?raw=true)
+
+
 
 3. We can also extract new fields using the **Event Actions** dropdown menu. After running a search, open one of the returned events, click** Event Actions**, and select** Extract Fields** from the dropdown.
 
@@ -36,6 +39,8 @@ After clicking **Next**, the following step is to **validate** the field extract
 then Click next to save, name the extraction and assign permissions to the Extraction.
 ![screenshot of save extraction](https://github.com/KO443/Splunk-power-user-lab-Projects/blob/main/Images/4e.png?raw=true)
 
+
+
 4.In this part of the lab, I will use the rex command in Splunk to extract fields from the data. The main challenge here is crafting the correct regular expressions (regex) to accurately extract the desired fields. Udemy instructor Hailee Shaw demonstrated how to use this site **https://regex101.com/** an online tool that helps build, test, and debug regular expressions, making it easier to identify powerful patterns for matching text.
 <br>
 <br>
@@ -50,6 +55,14 @@ Pro Tip: Regular expressions can also be seen  after saving a field for eg using
 In screenshot below,i selected an email format and it displayed its regex expression below {open image in a new tab to see HD version}
 ![screenshot of RegEX](https://github.com/KO443/Splunk-power-user-lab-Projects/blob/main/Images/4z.png?raw=true)
 
+
+
+5.In this part of the lab, I used the erex command in Splunk to automatically extract a field from the event data.
+
+After reviewing several events, I noticed values such as image/jpeg and text/css that represented file types. Since the erex command requires example values to generate a regular expression, I added these examples to my search and then used erex to create a field extraction based on them.
+![screenshot of erex cmd](https://github.com/KO443/Splunk-power-user-lab-Projects/blob/main/Images/4g.png?raw=true)
+
+ this allowed Splunk to build a regex pattern and extract all matching file-type values (such as image/jpeg and text/css) from the events.
 
 
 
