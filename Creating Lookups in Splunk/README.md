@@ -2,4 +2,7 @@ A lookup is a file that contains static data that is not an index, this could be
 
 Lookups can also be used to pull information from files during searches.
 
-IN this short lab, i will demostrate how to create look up
+In this short lab, I will demonstrate how to create a lookup using a search query and how to create a static lookup in Splunk. 
+
+TO start we first go to **Settings, Lookups , Lookup table files, **Click** New Look up table file**
+
