@@ -24,8 +24,8 @@ adding the lookup definition
 <br>
 <br>
 <br>
-In this part of the lab, I created a static lookup using SPL. I searched the web index and used the table command to display the productId field. I then applied the dedup command to remove duplicate values, ensuring that only unique product IDs were included before exporting the results as a static lookup.
+In this part of the lab, I created a static lookup using SPL search query and exporting it as a csv. I searched the web index and used the table command to display the productId field. I then applied the dedup command to remove duplicate values, ensuring that only unique product IDs were included before exporting the results as a static lookup.
 ![screenshot of static lookup](https://github.com/KO443/Splunk-power-user-lab-Projects/blob/main/Images/5f.png?raw=true)
 
-This static Lookup can be exported into a csv file by clicking **export**
+This static lookup can be exported as a CSV file by clicking **Export** at the top right of the search results.
 ![screenshot of static lookup export](https://github.com/KO443/Splunk-power-user-lab-Projects/blob/main/Images/5g.png?raw=true)
