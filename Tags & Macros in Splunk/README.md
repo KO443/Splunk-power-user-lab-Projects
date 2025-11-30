@@ -32,7 +32,7 @@ Another interesting anyone can do relating to tags which i chose not is that you
 <p align="center">  MACROS IN SPLUNK
 
 *************
-    
+ Macros are shortcuts we use in searches, they are svaed off searches that can be ran in a search bar just by typing the name of the Macro with backticks(``).This is vbery practical lonq queries we use frequently.
 
 
 
