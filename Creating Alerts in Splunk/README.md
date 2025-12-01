@@ -28,7 +28,7 @@ Splunk’s **throttle** feature, which functions much like a “**snooze**” op
 Alert is Saved
 ![Sc of my alert](https://github.com/KO443/Splunk-power-user-lab-Projects/blob/main/Images/8c.png?raw=true)
 
-
+  
 **************************************************************
 <p align="center"> MONITORING MY OWN LOCAL WINDOWS NETWORK AND CREATING AN ALERT  
 
@@ -55,6 +55,9 @@ here is a review of my data
 I saved the Local windows network monitoring data and this serach string auto populated on my search query
 ![](https://github.com/KO443/Splunk-power-user-lab-Projects/blob/main/Images/8g.png?raw=true)
 
+from the Index i created for monitoring my local windows network, i enetred a search query for an Alert that will alert me when unusual hiugh outbound traffic is leaving my local network.
+![sc of report query](https://github.com/KO443/Splunk-power-user-lab-Projects/blob/main/Images/8gi.png?raw=true)
 
-
+![sc of search query](https://github.com/KO443/Splunk-power-user-lab-Projects/blob/main/Images/8gii.png?raw=true)
+This alert monitors the total outbound network traffic from your computer and triggers whenever the amount of data sent exceeds 50 MB (50000000 bytes). It sums all outbound bytes over the search period and shows a result only if the traffic is unusually high. The alert helps detect potential issues like malware sending data out, unexpected large uploads, or misbehaving applications. Essentially, it acts as a warning when your computer is sending more data than normal, so you can investigate further.
 
