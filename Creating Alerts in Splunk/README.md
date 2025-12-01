@@ -40,24 +40,32 @@ Alert is Saved
 
 I had previously done a similar Lab like this where i monitored my **'Local windows host onioting'**. in this repository but this time i monitored my **Local Windows Network**. 
 
-to start this, go to **Settings, Add Data, Monitor, Local windows Network Monitoring**
+1. to start this, go to **Settings, Add Data, Monitor, Local windows Network Monitoring**
 
 ![sc of select source](https://github.com/KO443/Splunk-power-user-lab-Projects/blob/main/Images/8d.png?raw=true)
 
-I gave my Network monitor a name then i chose all the components i would like to get data about like ipv6,ipv4,TCP,UDP etc as shown in screenshot above.
+2. I gave my Network monitor a name then i chose all the components i would like to get data about like ipv6,ipv4,TCP,UDP etc as shown in screenshot above.
 
-Hostfield was populated which is my computer/device name. I used the same index i used while monitoring my local host which is **my_computer_logs**
+3. Hostfield was populated, which is my computer/device name. I used the same index i used while monitoring my local host which is **my_computer_logs**
 ![sc of input settings](https://github.com/KO443/Splunk-power-user-lab-Projects/blob/main/Images/8e.png?raw=true)
 
-here is a review of my data
+4. here is a review of my data
 ![sc of my data review](https://github.com/KO443/Splunk-power-user-lab-Projects/blob/main/Images/8f.png?raw=true)
 
-I saved the Local windows network monitoring data and this serach string auto populated on my search query
+5. I saved the Local windows network monitoring data and this serach string auto populated on my search query
 ![](https://github.com/KO443/Splunk-power-user-lab-Projects/blob/main/Images/8g.png?raw=true)
 
-from the Index i created for monitoring my local windows network, i enetred a search query for an Alert that will alert me when unusual hiugh outbound traffic is leaving my local network.
+6. from the Index i created for monitoring my local windows network, i enetred a search query for an Alert that will alert me when unusual hiugh outbound traffic is leaving my local network.
 ![sc of report query](https://github.com/KO443/Splunk-power-user-lab-Projects/blob/main/Images/8gi.png?raw=true)
 
 ![sc of search query](https://github.com/KO443/Splunk-power-user-lab-Projects/blob/main/Images/8gii.png?raw=true)
-This alert monitors the total outbound network traffic from your computer and triggers whenever the amount of data sent exceeds 50 MB (50000000 bytes). It sums all outbound bytes over the search period and shows a result only if the traffic is unusually high. The alert helps detect potential issues like malware sending data out, unexpected large uploads, or misbehaving applications. Essentially, it acts as a warning when your computer is sending more data than normal, so you can investigate further.
+
+7. then i went ahead and saved this as a Report (savingh as an alert is more practical but i was on a Splunki free Licence)
+![sc of my saved report](https://github.com/KO443/Splunk-power-user-lab-Projects/blob/main/Images/8h.png?raw=true)
+
+
+**This alert monitors the total outbound network traffic from your computer and triggers whenever the amount of data sent exceeds 50 MB (50000000 bytes). It sums all outbound bytes over the search period and shows a result only if the traffic is unusually high. The alert helps detect potential issues like malware sending data out, unexpected large uploads, or misbehaving applications. Essentially, it acts as a warning when your computer is sending more data than normal, so you can investigate further.**
+
+8. I went into reports and filtered the lists to see my own reports , in the screenshot below, we can see the newly saved 
+![sc of saved report](https://github.com/KO443/Splunk-power-user-lab-Projects/blob/main/Images/8giii.png?raw=true)
 
