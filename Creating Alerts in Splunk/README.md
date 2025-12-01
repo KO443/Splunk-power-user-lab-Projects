@@ -20,4 +20,41 @@ I saved this as an alert by clicking **Save As** in the top-right corner right u
 ![sc of Alert panel](https://github.com/KO443/Splunk-power-user-lab-Projects/blob/main/Images/8b.png?raw=true)
 From here, I set the search to run on a cron schedule which is a method Splunk uses to automatically run alerts, reports, and other knowledge objects at specified intervals. Since I’m still learning cron syntax, I used **crontab.guru** to help generate the correct cron expressions.
 
+In Splunk Alerts, you can configure trigger conditions to define what happens when the Alert fires such as **sending an email, creating a log entry, running a script, or performing other actions**. In my configuration, I set the alert to trigger for each result. 
+
+Splunk’s **throttle** feature, which functions much like a “**snooze**” option, is useful when an alert may fire repeatedly throughout the day but isn’t critical or doesn’t require immediate action. Throttling prevents duplicate notifications within a specified time window, reducing noise while still keeping you informed.
+
+
+Alert is Saved
+![Sc of my alert](https://github.com/KO443/Splunk-power-user-lab-Projects/blob/main/Images/8c.png?raw=true)
+
+
+**************************************************************
+<p align="center"> MONITORING MY OWN LOCAL WINDOWS NETWORK AND CREATING AN ALERT  
+
+**************************************************************
+
+
+*In this lab, i saved this as a REPORT because my enterprise license had expired and Splunk's free license does not let the user create an Alert*
+
+
+I had previously done a similar Lab like this where i monitored my **'Local windows host onioting'**. in this repository but this time i monitored my **Local Windows Network**. 
+
+to start this, go to **Settings, Add Data, Monitor, Local windows Network Monitoring**
+
+![sc of select source](https://github.com/KO443/Splunk-power-user-lab-Projects/blob/main/Images/8d.png?raw=true)
+
+I gave my Network monitor a name then i chose all the components i would like to get data about like ipv6,ipv4,TCP,UDP etc as shown in screenshot above.
+
+Hostfield was populated which is my computer/device name. I used the same index i used while monitoring my local host which is **my_computer_logs**
+![sc of input settings](https://github.com/KO443/Splunk-power-user-lab-Projects/blob/main/Images/8e.png?raw=true)
+
+here is a review of my data
+![sc of my data review](https://github.com/KO443/Splunk-power-user-lab-Projects/blob/main/Images/8f.png?raw=true)
+
+I saved the Local windows network monitoring data and this serach string auto populated on my search query
+![](https://github.com/KO443/Splunk-power-user-lab-Projects/blob/main/Images/8g.png?raw=true)
+
+
+
 
