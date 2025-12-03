@@ -57,9 +57,25 @@ To start we navigate to **Settings**,**Fieldss** then **workflow actions** and c
 
 ![sc of workflow actions](https://github.com/KO443/Splunk-power-user-lab-Projects/blob/main/Images/10a.png?raw=true)
 
+2. As shown in the screenshot, I named this workflow action “IP Whois Lookup.” For the label, I used $clientip$, which serves as a token representing the clientip field which is an IP address field in the web index.
+ - This token allows the workflow action to automatically pull the IP address from each event and use it in the lookup.
+ - For the Action Type, I selected **Link** and entered the lookup URL in the URL field followed by the workflow label as i did in the screenshot.
+ -  The Link Method provides two options: GET or POST and for this lab, I chose GET, as shown in the screenshot.
+ ![workflow action config page](https://github.com/KO443/Splunk-power-user-lab-Projects/blob/main/Images/10b.png?raw=true)
+
+3. We can see workflow has now been saved amd it is time tom use it in the Search homepage. {Open image link in a new tab to see HD version}
+![Saved workflow](https://github.com/KO443/Splunk-power-user-lab-Projects/blob/main/Images/10c.png?raw=true)
 
 
-2. hdhdhd
-3. hsdhsdhdhd
-4. hgdhdh
+4. To use this Workflow action in a serach we first search Index of web. We can see already see an IP address in the events. we will use this GET workflow to find who the IP is.
+![workflowcation search](https://github.com/KO443/Splunk-power-user-lab-Projects/blob/main/Images/10d.png?raw=true)
+
+ - In the dropdown (Evnt Actions) of that event with the IP, we can see that whois:$ClientIP$ workflow already grabbed that IP and if we click on the whois:$clientIP$, it looks up that IP adress at the site (whois.domaintools.com) and provides a result.
+ - ![IP lookup GET](https://github.com/KO443/Splunk-power-user-lab-Projects/blob/main/Images/10e.png?raw=true)
+
+result of the workflow action
+ - ![IP result of workflow](https://github.com/KO443/Splunk-power-user-lab-Projects/blob/main/Images/10f.png?raw=true)
+
+
+
 
