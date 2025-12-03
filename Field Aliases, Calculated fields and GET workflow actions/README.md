@@ -18,3 +18,31 @@ now i know my indexes sourcetypes, i will be making their field Aliases.Top star
 
 3. I did the smae thing for my security index with sourcetyoe linux_secure. 
 ![linux scure sourcetype fa](https://github.com/KO443/Splunk-power-user-lab-Projects/blob/main/Images/9d.png?raw=true)
+
+THis is how field Aliases are created, the original field from each index will still appear but a normalized new field **source_ip** will appear in terestingh fields.
+
+
+
+****************************
+
+<p align="center"> CALCULATED FIELDS
+  
+*******************************
+
+I will create a calculated field that calculates bytes to megabytes. in index of web (**index=web**), i will be working with the **bytes** field to create a calculated field called **megs**
+
+1. to start we go to **settings**, **fields,  calculated fields** , and then **add new** and a configuration page will open
+
+![](https://github.com/KO443/Splunk-power-user-lab-Projects/blob/main/Images/9e.png?raw=true)
+
+I intend to make this Megs calculated field convert bytes to megabyte hence the **Eval expression** **bytes/1024/1024**.
+Dividing bytes by 1024 twice converts it to megabytes because it first changes bytes to kilobytes, then kilobytes to megabytes.
+
+2. After Saving the Calculated field, here how to i use it in a search
+
+![search string of megs field](https://github.com/KO443/Splunk-power-user-lab-Projects/blob/main/Images/9g.png?raw=true)
+
+The search begins with **index=web**, which retrieves all events from the web index. The command stats sum(megs) as megs by file then aggregates the data by taking the sum of the calculated field **megs** (the calculated field i just created) for each file, producing one row per file with its total megabyte size. Finally, **sort - megs** sorts the results in descending order, so the files using the most megabytes appear at the top.
+
+
+
