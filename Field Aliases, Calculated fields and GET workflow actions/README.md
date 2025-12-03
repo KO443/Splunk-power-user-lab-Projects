@@ -49,5 +49,17 @@ The search begins with **index=web**, which retrieves all events from the web in
 <p align="center"> GET Workflow Actions
 
 ***********************************
-GET Workflow
+GET Workflow can be used to leverage a web resource and send one of your fields in Splunk to that web resource to then gain additional information from it. GET can create HTML links to interact with sites.
+
+1. In this short section of the Lab, i will be using this IP look up (**whois.domaintools.com**)tool for this lab, it is a web resource used to lookup any IP of interest.
+   
+To start we navigate to **Settings**,**Fieldss** then **workflow actions** and click **Add new** to open the workflow action configuration page
+
+![sc of workflow actions](https://github.com/KO443/Splunk-power-user-lab-Projects/blob/main/Images/10a.png?raw=true)
+
+
+
+2. hdhdhd
+3. hsdhsdhdhd
+4. hgdhdh
 
