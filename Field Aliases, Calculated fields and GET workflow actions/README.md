@@ -70,11 +70,12 @@ To start we navigate to **Settings**,**Fieldss** then **workflow actions** and c
 4. To use this Workflow action in a serach we first search Index of web. We can see already see an IP address in the events. we will use this GET workflow to find who the IP is.
 ![workflowcation search](https://github.com/KO443/Splunk-power-user-lab-Projects/blob/main/Images/10d.png?raw=true)
 
- - In the dropdown (Evnt Actions) of that event with the IP, we can see that whois:$ClientIP$ workflow already grabbed that IP and if we click on the whois:$clientIP$, it looks up that IP adress at the site (whois.domaintools.com) and provides a result.
+ - In the dropdown (Event Actions) of that event with the IP, we can see that whois:$ClientIP$ workflow already grabbed that IP and if we click on the whois:$clientIP$, it looks up that IP adress at the site (whois.domaintools.com) and provides a result.
  - ![IP lookup GET](https://github.com/KO443/Splunk-power-user-lab-Projects/blob/main/Images/10e.png?raw=true)
 
-result of the workflow action
- - ![IP result of workflow](https://github.com/KO443/Splunk-power-user-lab-Projects/blob/main/Images/10f.png?raw=true)
+ - result of the workflow action
+
+ ![IP result of workflow](https://github.com/KO443/Splunk-power-user-lab-Projects/blob/main/Images/10f.png?raw=true)
 
 
 
