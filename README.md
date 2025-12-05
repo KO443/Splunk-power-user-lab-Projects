@@ -1,7 +1,6 @@
-
-
 <p align="center">Splunk Core Power User Lab Project
 
+     
 *****************************************************
 *I created this hands-on Splunk lab projects after my certified Splunk Core Power User certification showcasing variety of Splunk features and capabilities i learned while using study Materials like the Udemy course “Zero to Power User” by Hailie Shaw*
 <br>
@@ -9,7 +8,9 @@
 *The learning materials and mock data in this repository are derived from the official Splunk documentation and the Udemy course “Zero to Power User” by Hailie Shaw gave me more insigts on how to use Splunk SIEM and it prepared me for my certification. I used these resources as a foundation while building my own customized lab environment, creating personalized workflows, alerts, and dashboards to reinforce and apply the concepts I learned.*
 <br>
 <br>
-In this repository, I cover demonstrations of several core Splunk topics, including:
+******************************************************
+In this repository, I cover demonstrations of several core Splunk topics, such as:
+--
 
 1. Setting up a standalone Splunk Enterprise instance and parsing raw data to build indexes.
 
@@ -29,7 +30,6 @@ In this repository, I cover demonstrations of several core Splunk topics, includ
 8. Additional demonstrations of creating tags and macros in Splunk.
 
 9. Creating alerts and reports in Splunk.
-
    
 *********************
 
