@@ -9,8 +9,8 @@
 <br>
 <br>
 ******************************************************
-In this repository, I cover demonstrations of several core Splunk topics, such as:
---
+In this repository, I cover demonstrations of several core Splunk topics, such as;
+-
 
 1. Setting up a standalone Splunk Enterprise instance and parsing raw data to build indexes.
 
