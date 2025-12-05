@@ -1,7 +1,3 @@
-#include <stdio.h>
+<p align="center">Home Dashboard
 
-int main() {
-// printf() displays the string inside quotation
-printf("Hello, World!");
-return 0;
-}
+********************************
