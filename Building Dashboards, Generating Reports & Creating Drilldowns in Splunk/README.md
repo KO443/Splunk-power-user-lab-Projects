@@ -25,7 +25,15 @@ To make he newly set up dashboard a Home Dashboard, click on the 3 dot at top ri
 ****************************************************
 Tokens allow dashboards to accept user input—such as dropdown selections, text fields, or time ranges—and use that input dynamically in searches, panels, and drilldowns.
 
-I will be continuing from the previous section which was just creating a dashboard
+I will be continuing from the previous section where i created my Home Dashboard, to create Token off the Dashboard, I first start by
+1. going to edit in the Dashboard then Add input. From the Many options in the input dropdown, i chose text and then clicked submit, I added text, submit 
+ 
+
+![sc of add inpout token](https://github.com/KO443/Splunk-power-user-lab-Projects/blob/main/Images/99e.png?raw=true)
+
+2. hdhdhd
+3. jsdjsdjsj
+4. ldld
 
 
 
