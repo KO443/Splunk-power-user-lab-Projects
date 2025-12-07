@@ -81,7 +81,7 @@ The Report is Titled **SOC_Report_Executableseen**, and this is the configuratio
 ![report cron sched](https://github.com/KO443/Splunk-power-user-lab-Projects/blob/main/Images/99p.png?raw=true)
 
 
-3.I will be making
+3.To make my existing dashboard an executable dashboard, i went to my home dashboard: 'Error/INFO/Warn messages seen in the past month', clicked on 3 dot option left sideafter edit dashboard, clicked edit drilldown and chose ** link to search** (this will make the dashboard clickable).
 
 
 
