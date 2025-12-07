@@ -81,7 +81,24 @@ The Report is Titled **SOC_Report_Executableseen**, and this is the configuratio
 ![report cron sched](https://github.com/KO443/Splunk-power-user-lab-Projects/blob/main/Images/99p.png?raw=true)
 
 
-3.To make my existing dashboard an executable dashboard, i went to my home dashboard: 'Error/INFO/Warn messages seen in the past month', clicked on 3 dot option left sideafter edit dashboard, clicked edit drilldown and chose ** link to search** (this will make the dashboard clickable).
+3. To make my existing dashboard an executable dashboard, i went to my home dashboard: 'Error/INFO/Warn messages seen in the past month', clicked on 3 dot option left sideafter edit dashboard, clicked edit drilldown and chose ** link to search** (this will make the dashboard clickable).
+
+To make my existing dashboard an executable dashboard, I opened my Home dashboard ‘**Error/INFO/Warn messages seen in the past month**’, clicked the three-dot menu next to Edit Dashboard, selected **Edit Drilldown**, and chose **Link to Search**. This enables drilldown functionality, allowing users to click on dashboard panels and be taken directly to Search.
+
+<img width="672" height="402" alt="image" src="https://github.com/user-attachments/assets/0f65cd89-197e-45bb-834c-b944a356432b" />
+
+
+4.  Here is what the dashboard looks like ater it is clickable. Clicking on any of the link will add to search.
+
+<img width="780" height="423" alt="image" src="https://github.com/user-attachments/assets/3ac4b856-627d-4472-8ad5-b6bde747174f" />
+
+5. while in the **drilldown editor**, i explored another option in the configuration to manage tokens on this dahsboard on click.
+
+![drilldown editor](https://github.com/KO443/Splunk-power-user-lab-Projects/blob/main/Images/99s.png?raw=true)
+
+- I Created a token called **userclick** with the preset token value **click.value2$** so that whatever is clicked will be generated in events.
+
+
 
 
 
