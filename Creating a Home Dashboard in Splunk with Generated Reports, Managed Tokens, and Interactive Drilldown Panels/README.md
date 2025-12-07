@@ -59,60 +59,9 @@ I will be continuing from the previous section where i created my Home Dashboard
 ![edit search shared timepicker](https://github.com/KO443/Splunk-power-user-lab-Projects/blob/main/Images/99m.png?raw=true)
 
 **********************************************
+<p align="center"> Adding Reports to the Home dashboard with Maganed Tokens interactive drilldown Panels
 
-Creating  a new report and adding to this home dahsboard and makeing an executable dashboard with managed tokens
+**********************************************
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-***********
-Drilldowns
-
-Drilldowns add interactive functionality to dashboard panels. For example, clicking a value in a chart or table can take you to a related search, open another dashboard, or display a corresponding report.
-
-
-Reports
-
+Drilldowns add interactive functionality to dashboard panels. For example, clicking a value in a chart or table can take you to a related search, open another dashboard, or display a corresponding report.<br> <br>
 Reports are essentially saved searches. They can highlight important events, display statistics or tables, and generate visualizations. Reports can also be scheduled or used as the basis for alerts and dashboards.
