@@ -34,18 +34,29 @@ I will be continuing from the previous section where i created my Home Dashboard
 ![sc of token input config](https://github.com/KO443/Splunk-power-user-lab-Projects/blob/main/Images/99f.png?raw=true)
 
 3. To Edit search, and add our new token `$loglevel$` ($ is used to indicate token in splunk), we will click on the magnifying glass icon as shown in the screenshot. Edit the search string and replace the log_level=* with `$loglevel$`
- and the hit apply.
+ and the hit **Apply**. This allows the **search** and the dashboard panels to update dynamically based on whatever log level the user chooses.
+ 
 ![token search edit](https://github.com/KO443/Splunk-power-user-lab-Projects/blob/main/Images/99g.png?raw=true)
 
 ![add token tosearch](https://github.com/KO443/Splunk-power-user-lab-Projects/blob/main/Images/99h.png?raw=true)
 
 
-4. jhdjdjd
-5. jdjdjdjd
-6. kdkdkdk
-7. ,kdkdkd
-8. dlkdkd
-9. kdkdk
+4. I typed INFO into the text input (since the log_level field originally contained values like INFO and WARN) and clicked **Submit**. This passes the value through the loglevel token and applies it to the log_level field in the search, returning results that match the selected log level.
+
+![sc od txtinput n submit](https://github.com/KO443/Splunk-power-user-lab-Projects/blob/main/Images/99i.png?raw=true)
+
+![sc of txtinput n submit](https://github.com/KO443/Splunk-power-user-lab-Projects/blob/main/Images/99j.png?raw=true)
+
+6. I created another input for **time** in the dashboard and configured it according to my requirements. I labeled the input **time**, assigned the token name **time**, and left the time range set to its default value of the last 7 days.
+![input of time](https://github.com/KO443/Splunk-power-user-lab-Projects/blob/main/Images/99k.png?raw=true)
+
+
+7. The dashboard text, submit and time input looks like this.
+![Home Dashboard input](https://github.com/KO443/Splunk-power-user-lab-Projects/blob/main/Images/99l.png?raw=true)
+
+8. ,kdkdkd
+9. dlkdkd
+10. kdkdk
 
 
 
