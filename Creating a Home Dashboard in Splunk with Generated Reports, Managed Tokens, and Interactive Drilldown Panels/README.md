@@ -60,8 +60,7 @@ I will be continuing from the previous section where i created my Home Dashboard
 
 **********************************************
 
-
-
+Creating  a new report and adding to this home dahsboard and makeing an executable dashboard with managed tokens
 
 
 
