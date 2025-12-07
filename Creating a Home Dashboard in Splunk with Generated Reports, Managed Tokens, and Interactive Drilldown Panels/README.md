@@ -96,7 +96,11 @@ To make my existing dashboard an executable dashboard, I opened my Home dashboar
 
 ![drilldown editor](https://github.com/KO443/Splunk-power-user-lab-Projects/blob/main/Images/99s.png?raw=true)
 
-- I Created a token called **userclick** with the preset token value **click.value2$** so that whatever is clicked will be generated in events.
+- I set the token name **userclick** with the preset token value **click.value2$** so that whatever is clicked be it any value or any cell clicked in this **table chart** will be generated in events. 
+
+- To make the new token **userclick** functional, I added a new panel to the Home dashboard. I clicked **Add Panel** at the top of the dashboard, selected **Events**, and set the panel title to** User's Input**. In the search for the panel, I referenced the token by using: index=* $userclick$. Finally, I adjusted the time range to **All Time** so the panel can return results whenever a user triggers the token through a drilldown action.
+
+![Add panel config](https://github.com/KO443/Splunk-power-user-lab-Projects/blob/main/Images/99t.png?raw=true)
 
 
 
