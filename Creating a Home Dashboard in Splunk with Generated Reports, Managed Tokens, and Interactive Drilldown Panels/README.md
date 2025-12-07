@@ -54,7 +54,7 @@ I will be continuing from the previous section where i created my Home Dashboard
 7. The dashboard text, submit and time input looks like this.
 ![Home Dashboard input](https://github.com/KO443/Splunk-power-user-lab-Projects/blob/main/Images/99l.png?raw=true)
 
-8. I went to **edit**, then selected **Edit Search** by clicking the magnifying glass icon in the dashboard. From there, I changed the time range setting from Use time picker to Shared time picker, and clicked **Apply** to save the new preference. This change allows the search to use the dashboard’s shared time input, meaning the time range selected by the user is automatically applied to all panels that reference this shared time token, keeping the entire dashboard synchronized and consistent. With this new change it is searching for 1 month rather than the default last 7 days search.
+8. I went to **edit**, then selected **Edit Search** by clicking the magnifying glass icon in the dashboard. From there, I changed the time range setting from Use time picker to Shared time picker, and clicked **Apply** to save the new preference. This change allows the search to use the dashboard’s shared time input, meaning the time range selected by the user is automatically applied to all panels that reference this shared time token, keeping the entire dashboard synchronized and consistent. With this new change it is searching for 1 month rather than the default last 7 days search. So Dashboard title can now be **'Error/INFO/Warn messages seen in the past month'**
 
 ![edit search shared timepicker](https://github.com/KO443/Splunk-power-user-lab-Projects/blob/main/Images/99m.png?raw=true)
 
@@ -69,7 +69,10 @@ Reports are essentially saved searches. They can highlight important events, dis
 1. For this section of the Lab, i will start by searching my SPL query. This searches across all indexes (index=*) for events that contain “.exe” anywhere in the raw event data. It also filters the results to only include events from the specific host **mybox** which is the host for my device. Then uses the **table** command to neatly display only the relevant fields Name, Path, and Commandline so we  can clearly see which executable ran, where it was located, and the exact command used to execute it.
 ![search string report](https://github.com/KO443/Splunk-power-user-lab-Projects/blob/main/Images/99n.png?raw=true)
 
-2. 
+2. Saved this Search as a report and will add to existing home dashboard created the previous section - 'Error/INFO/Warn messages seen in the past month', and added a cron scjhedule
+![edit report sched](https://github.com/KO443/Splunk-power-user-lab-Projects/blob/main/Images/99o.png?raw=true)
+
+![report cron sched](https://github.com/KO443/Splunk-power-user-lab-Projects/blob/main/Images/99p.png?raw=true)
 
 
 
