@@ -26,14 +26,26 @@ To make he newly set up dashboard a Home Dashboard, click on the 3 dot at top ri
 Tokens allow dashboards to accept user input—such as dropdown selections, text fields, or time ranges—and use that input dynamically in searches, panels, and drilldowns.
 
 I will be continuing from the previous section where i created my Home Dashboard, to create Token off the Dashboard, I first start by
-1. going to edit in the Dashboard then Add input. From the Many options in the input dropdown, i chose text and then clicked submit, I added text, submit 
- 
-
+1. going to edit in the Dashboard then Add input. From the Many options in the input dropdown, i added **text** and **submit**, as inputs so when the user enters a text in the field they can also use the subit button.
 ![sc of add inpout token](https://github.com/KO443/Splunk-power-user-lab-Projects/blob/main/Images/99e.png?raw=true)
 
-2. hdhdhd
-3. jsdjsdjsj
-4. ldld
+2. I labeled the new input as **loglevel** which also is assigning it a token value of loglevel , enabled **Search on Change** by checking the small box, and named the token **loglevel** before clicking Apply at the bottom right. Enabling Search on Change means that any time the user selects a different value from this input, the dashboard automatically reruns all dependent searches using the updated token value, no refresh button needed. This makes the dashboard more dynamic and responsive, updating panels instantly based on the user’s selection.
+
+![sc of token input config](https://github.com/KO443/Splunk-power-user-lab-Projects/blob/main/Images/99f.png?raw=true)
+
+3. To Edit search, and add our new token `$loglevel$` ($ is used to indicate token in splunk), we will click on the magnifying glass icon as shown in the screenshot. Edit the search string and replace the log_level=* with `$loglevel$`
+ and the hit apply.
+![token search edit](https://github.com/KO443/Splunk-power-user-lab-Projects/blob/main/Images/99g.png?raw=true)
+
+![add token tosearch](https://github.com/KO443/Splunk-power-user-lab-Projects/blob/main/Images/99h.png?raw=true)
+
+
+4. jhdjdjd
+5. jdjdjdjd
+6. kdkdkdk
+7. ,kdkdkd
+8. dlkdkd
+9. kdkdk
 
 
 
