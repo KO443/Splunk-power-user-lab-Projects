@@ -69,10 +69,12 @@ Reports are essentially saved searches. They can highlight important events, dis
 1. For this section of the Lab, i will start by searching my SPL query. This searches across all indexes (index=*) for events that contain “.exe” anywhere in the raw event data. It also filters the results to only include events from the specific host **mybox** which is the host for my device. Then uses the **table** command to neatly display only the relevant fields Name, Path, and Commandline so we  can clearly see which executable ran, where it was located, and the exact command used to execute it.
 ![search string report](https://github.com/KO443/Splunk-power-user-lab-Projects/blob/main/Images/99n.png?raw=true)
 
-2. Saved this Search as a report and will add to existing home dashboard created the previous section - 'Error/INFO/Warn messages seen in the past month', and added a cron scjhedule
+2. I saved this search as a report and added it to the existing Home dashboard I created in the previous section, titled ‘Error/INFO/Warn messages seen in the past month’. I then edited the report’s schedule so it runs automatically every Monday morning at 6 AM, ensuring the dashboard always reflects the most up-to-date results.
 ![edit report sched](https://github.com/KO443/Splunk-power-user-lab-Projects/blob/main/Images/99o.png?raw=true)
 
 ![report cron sched](https://github.com/KO443/Splunk-power-user-lab-Projects/blob/main/Images/99p.png?raw=true)
+
+3.
 
 
 
