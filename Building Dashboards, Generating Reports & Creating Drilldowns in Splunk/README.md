@@ -54,13 +54,13 @@ I will be continuing from the previous section where i created my Home Dashboard
 7. The dashboard text, submit and time input looks like this.
 ![Home Dashboard input](https://github.com/KO443/Splunk-power-user-lab-Projects/blob/main/Images/99l.png?raw=true)
 
-8. I went to **edit**, then selected **Edit Search** by clicking the magnifying glass icon in the dashboard. From there, I changed the time range setting from Use time picker to Shared time picker, and clicked **Apply** to save the new preference. This change allows the search to use the dashboard’s shared time input, meaning the time range selected by the user is automatically applied to all panels that reference this shared time token, keeping the entire dashboard synchronized and consistent.
+8. I went to **edit**, then selected **Edit Search** by clicking the magnifying glass icon in the dashboard. From there, I changed the time range setting from Use time picker to Shared time picker, and clicked **Apply** to save the new preference. This change allows the search to use the dashboard’s shared time input, meaning the time range selected by the user is automatically applied to all panels that reference this shared time token, keeping the entire dashboard synchronized and consistent. With this new change it is searching for 1 month rather than the default last 7 days search.
 
 ![edit search shared timepicker](https://github.com/KO443/Splunk-power-user-lab-Projects/blob/main/Images/99m.png?raw=true)
 
+**********************************************
 
-9. dlkdkd
-10. kdkdk
+
 
 
 
