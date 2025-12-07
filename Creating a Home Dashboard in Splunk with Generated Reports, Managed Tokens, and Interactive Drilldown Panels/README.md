@@ -65,3 +65,11 @@ I will be continuing from the previous section where i created my Home Dashboard
 
 Drilldowns add interactive functionality to dashboard panels. For example, clicking a value in a chart or table can take you to a related search, open another dashboard, or display a corresponding report.<br> <br>
 Reports are essentially saved searches. They can highlight important events, display statistics or tables, and generate visualizations. Reports can also be scheduled or used as the basis for alerts and dashboards.
+
+1. For this section of the Lab, i will start by searching my SPL query. This searches across all indexes (index=*) for events that contain “.exe” anywhere in the raw event data. It also filters the results to only include events from the specific host **mybox** which is the host for my device. Then uses the **table** command to neatly display only the relevant fields Name, Path, and Commandline so we  can clearly see which executable ran, where it was located, and the exact command used to execute it.
+![search string report](https://github.com/KO443/Splunk-power-user-lab-Projects/blob/main/Images/99n.png?raw=true)
+
+2. 
+
+
+
