@@ -34,10 +34,11 @@ As shown below, web Data Model already has predefined Macros ie (``cim_web_index
 2. Now I will create tags for the data that should be mapped to a Data Model. To do this, I went to **Settings, Event Types, Create New Event Type**, which opens the event type configuration page. I created a new event type, gave it a descriptive name, and assigned it the tag web. I also selected the color magenta,with a high priority just because this is a Lab. which helps visually distinguish this event type in the search results, making it easy to identify events that belong to the web category.
 ![eventype](https://github.com/KO443/Splunk-power-user-lab-Projects/blob/main/Images/100h.png?raw=true)
 
-I edited the permission for this new event 
+I edited the permission for this new event type.
+![web permission](https://github.com/KO443/Splunk-power-user-lab-Projects/blob/main/Images/100i.png?raw=true)
 
-3. jdjd
-
+3. After running a search for the new web event type (for example, index=web host=web1), the events are now highlighted in magenta, confirming that the event type and its assigned color are being applied correctly.
+![web magenta](https://github.com/KO443/Splunk-power-user-lab-Projects/blob/main/Images/100ii.png?raw=true)
 
 4. hdhd
 5. kdskdk
