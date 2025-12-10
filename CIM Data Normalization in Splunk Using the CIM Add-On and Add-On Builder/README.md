@@ -15,5 +15,8 @@ in this Long lab, I will downloadthe CIM app and make some data CIM-Compliant us
 ![cim install](https://github.com/KO443/Splunk-power-user-lab-Projects/blob/main/Images/100b.png?raw=true)
 ![cim installing](https://github.com/KO443/Splunk-power-user-lab-Projects/blob/main/Images/100c.png?raw=true)
 
-3. jjjjj
+3. After installing the CIM App, Just like i did in step number 1, go to **Settings**, then **Data Models**, and then we can see there are 29 new Data Models fromm the installed CIM.
+
+![newly installed DM](https://github.com/KO443/Splunk-power-user-lab-Projects/blob/main/Images/100d.png?raw=true)
+
 4. jjjjj
