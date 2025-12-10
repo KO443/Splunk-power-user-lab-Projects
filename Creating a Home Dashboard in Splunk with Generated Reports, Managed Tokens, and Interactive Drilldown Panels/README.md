@@ -23,7 +23,7 @@ To make he newly set up dashboard a Home Dashboard, click on the 3 dot at top ri
  <p align="center"> Creating Tokens off dashboard
 
 ****************************************************
-Tokens allow dashboards to accept user input—such as dropdown selections, text fields, or time ranges—and use that input dynamically in searches, panels, and drilldowns.
+Tokens allow dashboards to accept user input such as dropdown selections, text fields, or time ranges and use that input dynamically in searches, panels, and drilldowns.
 
 I will be continuing from the previous section where i created my Home Dashboard, to create Token off the Dashboard, I first start by
 1. going to edit in the Dashboard then Add input. From the Many options in the input dropdown, i added **text** and **submit**, as inputs so when the user enters a text in the field they can also use the subit button.
