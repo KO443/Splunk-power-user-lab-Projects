@@ -23,7 +23,7 @@ in this Long lab, I will downloadthe CIM app and make some data CIM-Compliant us
 
 ![webDM](https://github.com/KO443/Splunk-power-user-lab-Projects/blob/main/Images/100e.png?raw=true)
 
-AS shown below, web Data Model already has predefined Macros. So now I will
+AS shown below, web Data Model already has predefined Macros ie (`cim_web_indexes`) So now I will   
 ![web DM macros](https://github.com/KO443/Splunk-power-user-lab-Projects/blob/main/Images/100g.png?raw=true)
 
 
