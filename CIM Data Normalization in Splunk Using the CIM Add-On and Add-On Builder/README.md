@@ -50,4 +50,10 @@ Lets see the pivot of **web** Data model in GUI from **settings, Data Models,** 
 ..and then click on Parent data set of **web** we can see it also has the same event count as displayed from the Statistics after i ran the search in step no 4
 ![web pivot count](https://github.com/KO443/Splunk-power-user-lab-Projects/blob/main/Images/100jjj.png?raw=true)
 
-5. kdskdk
+
+
+
+***********************************************
+<p align="center"> Using Splunk Add-on Builder to Normalize Data in Splunk
+
+***********************************
