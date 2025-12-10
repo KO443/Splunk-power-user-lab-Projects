@@ -8,6 +8,7 @@ in this Long lab, I will downloadthe CIM app and make some data CIM-Compliant us
 
 1. Before Installing CIM, I first went to **Settings**, then **Data Models** to show that my Splunk environment currently contains only two data models, both of which are default models that come preinstalled in Splunk.
 
+![sc of datamodels](https://github.com/KO443/Splunk-power-user-lab-Projects/blob/main/Images/100a.png?raw=true)
 
 2. jjjj
 3. jjjjj
