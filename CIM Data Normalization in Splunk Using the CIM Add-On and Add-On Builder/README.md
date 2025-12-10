@@ -20,25 +20,24 @@ in this Long lab, I will downloadthe CIM app and make some data CIM-Compliant us
 ![newly installed DM](https://github.com/KO443/Splunk-power-user-lab-Projects/blob/main/Images/100d.png?raw=true)
 
 *******************************************
-<p align="center"> Creating Event Types based on New data Models from the CIM App
+<p align="center"> Creating  a new Event Type of web based on new Data Models from the CIM App
 
 ********************************************
-4. Lets go into into the Data Model of **web** (one of the newly installed Data Model from the CIM App)
+1. Lets go into into the Data Model of **web** (one of the newly installed Data Model from the CIM App)
 
 ![webDM](https://github.com/KO443/Splunk-power-user-lab-Projects/blob/main/Images/100e.png?raw=true)
 
-AS shown below, web Data Model already has predefined Macros ie (``cim_web_indexes`) and we can see it has child datasets of proxy and storage. 
+As shown below, web Data Model already has predefined Macros ie (``cim_web_indexes`) and we can see it has child datasets of proxy and storage. 
   
 ![web DM macros](https://github.com/KO443/Splunk-power-user-lab-Projects/blob/main/Images/100g.png?raw=true)
 
-5. Now I will create tags for the data that should be mapped to a Data Model. To do this, I went to **Settings, Event Types, Create New Event Type**, which opens the event type configuration page. I created a new event type, gave it a descriptive name, and assigned it the tag web. I also selected the color magenta,with a high priority just because this is a Lab. which helps visually distinguish this event type in the search results, making it easy to identify events that belong to the web category.
+2. Now I will create tags for the data that should be mapped to a Data Model. To do this, I went to **Settings, Event Types, Create New Event Type**, which opens the event type configuration page. I created a new event type, gave it a descriptive name, and assigned it the tag web. I also selected the color magenta,with a high priority just because this is a Lab. which helps visually distinguish this event type in the search results, making it easy to identify events that belong to the web category.
 ![eventype](https://github.com/KO443/Splunk-power-user-lab-Projects/blob/main/Images/100h.png?raw=true)
 
 I edited the permission for this new event 
 
-6. jdjd
-7. hdhd
-8. hdhd
-9. hdjd
-10. jhdjd
-11. jhdjd
+3. jdjd
+
+
+4. hdhd
+5. kdskdk
