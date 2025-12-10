@@ -40,5 +40,14 @@ I edited the permission for this new event type.
 3. After running a search for the new web event type (for example, index=web host=web1), the events are now highlighted in magenta, confirming that the event type and its assigned color are being applied correctly.
 ![web magenta](https://github.com/KO443/Splunk-power-user-lab-Projects/blob/main/Images/100ii.png?raw=true)
 
-4. hdhd
+4.Using the tstats command, I ran a search to count how many events are stored in the **Web** data model. The results show that the **Web** data model contains **20385** events.
+
+![dm count](https://github.com/KO443/Splunk-power-user-lab-Projects/blob/main/Images/100iii.png?raw=true)
+
+Lets see the pivot of **web** Data model in GUI from **settings, Data Models,** then **web** Data Model. when we click on **Pivot** 
+![web pivot](https://github.com/KO443/Splunk-power-user-lab-Projects/blob/main/Images/100jj.png?raw=true)
+
+..and then click on Parent data set of **web** we can see it also has the same event count as displayed from the Statistics after i ran the search in step no 4
+![web pivot count](https://github.com/KO443/Splunk-power-user-lab-Projects/blob/main/Images/100jjj.png?raw=true)
+
 5. kdskdk
