@@ -15,8 +15,24 @@ in this Long lab, I will downloadthe CIM app and make some data CIM-Compliant us
 ![cim install](https://github.com/KO443/Splunk-power-user-lab-Projects/blob/main/Images/100b.png?raw=true)
 ![cim installing](https://github.com/KO443/Splunk-power-user-lab-Projects/blob/main/Images/100c.png?raw=true)
 
-3. After installing the CIM App, Just like i did in step number 1, go to **Settings**, then **Data Models**, and then we can see there are 29 new Data Models fromm the installed CIM.
+3. After installing the CIM App, Just like i did in step number 1, go to **Settings**, then **Data Models**, and then we can see there are 29 new Data Models from the installed CIM.
 
 ![newly installed DM](https://github.com/KO443/Splunk-power-user-lab-Projects/blob/main/Images/100d.png?raw=true)
 
-4. jjjjj
+4. Lets go into into the Data Model of **web** (one of the newly installed Data Model from the CIM App)
+
+![webDM](https://github.com/KO443/Splunk-power-user-lab-Projects/blob/main/Images/100e.png?raw=true)
+
+AS shown below, web Data Model already has predefined Macros. So now I will
+![web DM macros](https://github.com/KO443/Splunk-power-user-lab-Projects/blob/main/Images/100g.png?raw=true)
+
+
+
+
+5. jdjd
+6. jdjd
+7. hdhd
+8. hdhd
+9. hdjd
+10. jhdjd
+11. jhdjd
