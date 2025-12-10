@@ -10,9 +10,10 @@ in this Long lab, I will downloadthe CIM app and make some data CIM-Compliant us
 
 ![sc of datamodels](https://github.com/KO443/Splunk-power-user-lab-Projects/blob/main/Images/100a.png?raw=true)
 
-2. To download the CIM app, start on Splunk’s home page, click **Apps** in the top-left corner, and then select **Find More Apps** to browse the available add-ons.
+2. To download the CIM app, start on Splunk’s home page, click **Apps** in the top-left corner, and then select **Find More Apps** to browse the available add-ons. See my steps in the screeshot below
 
 ![cim install](https://github.com/KO443/Splunk-power-user-lab-Projects/blob/main/Images/100b.png?raw=true)
+![cim installing](https://github.com/KO443/Splunk-power-user-lab-Projects/blob/main/Images/100c.png?raw=true)
 
 3. jjjjj
 4. jjjjj
