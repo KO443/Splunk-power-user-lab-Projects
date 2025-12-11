@@ -53,7 +53,7 @@ Lets see the pivot of **web** Data model in GUI from **settings, Data Models,** 
 
 
 ***********************************************
-<p align="center"> Using Splunk Add-on Builder to Normalize Data in Splunk
+<p align="center"> Using Splunk Add-on Builder to Manage Source Types
 
 ***********************************
 
@@ -80,8 +80,10 @@ Lets see the pivot of **web** Data model in GUI from **settings, Data Models,** 
 7. Using the search we can also verify that the event count for access_combined is the same number 39532
 <img width="2521" height="637" alt="image" src="https://github.com/user-attachments/assets/272603b4-38b4-43f8-b4be-8b71b78f874d" />
 
-8. jfjfj
-9. mfjfjdfdcfcd
+***********************************************
+<p align="center"> Using Splunk Add-on Builder to Map to Data Models to existings Source Types
+
+**********************************************
 
 
 
