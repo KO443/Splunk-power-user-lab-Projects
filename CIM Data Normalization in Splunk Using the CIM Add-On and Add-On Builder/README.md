@@ -114,11 +114,17 @@ Lets see the pivot of **web** Data model in GUI from **settings, Data Models,** 
 
 <img width="546" height="545" alt="image" src="https://github.com/user-attachments/assets/f273a3b3-2c62-420c-90dd-d288eb573d91" />
 
-7.I add the fields from the Event type and the data Model to so than an alias can create an Alias 
-click ok after adding the field and click new knowledge object to add another 
-the click Done (top right) to move to Validate & Package
+7. To map fields in the CIM Add-on Builder, I selected the field from the Event Type on the left and the matching Data Model field on the right so the builder can create a proper field alias between them. After adding each pair, I clicked OK, then chose New Knowledge Object to add the next mapping. When all mappings were finished, I clicked **Done** (top right) to move to the **Validate & Package step**.
 
-8. kdkdkd
+![field alias DM to ET](https://github.com/KO443/Splunk-power-user-lab-Projects/blob/main/Images/100x.png?raw=true)
+
+![Validate & Package](https://github.com/KO443/Splunk-power-user-lab-Projects/blob/main/Images/100xx.png?raw=true)
+
+
+note: A field alias does not rename the original field; instead, it tells Splunk to treat one field name as if it were another, allowing both names to return the same values. This ensures the data matches CIM’s expected field names without modifying the raw events.
+
+8. 
+
 9. 
 
 
