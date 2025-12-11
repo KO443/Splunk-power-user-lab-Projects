@@ -72,6 +72,7 @@ Lets see the pivot of **web** Data model in GUI from **settings, Data Models,** 
 <img width="2541" height="852" alt="image" src="https://github.com/user-attachments/assets/fcee35e0-50fd-4ec5-82ce-c3aeb193f252" />
 
 5. As shown in the screenshot, after clicking **Import from Splunk**, i changed sourcetype to **access_combined** and then clicked **save**. 
+
 ![import from splk ](https://github.com/KO443/Splunk-power-user-lab-Projects/blob/main/Images/100o.png?raw=true)
 
 6. on the **Events** column, Events count displays as 39532 for the access_combined source type.
@@ -86,10 +87,19 @@ Lets see the pivot of **web** Data model in GUI from **settings, Data Models,** 
 **********************************************
 
 1. In the Add-on Builder, I clicked **Map to Data Models** then i clicked **New Data Model Mapping**
-https://github.com/KO443/Splunk-power-user-lab-Projects/blob/main/Images/100r.png?raw=true
 
-2. hdhds
-3. hdhdhd
+![Mapto Data Models, new](https://github.com/KO443/Splunk-power-user-lab-Projects/blob/main/Images/100r.png?raw=true)
+
+2. I gave a name for the **event type**, and assigned the **access_combined** sourcetype and then entered the search string **Index=web sourcetype=acccess_combined **  and then click **save**, i added index of web as it is the only index with the access_combined sourcetype.
+
+![DM mapping name](https://github.com/KO443/Splunk-power-user-lab-Projects/blob/main/Images/100s.png?raw=true)
+
+3. After i clicked saved on the left side of the screen, all the field names for the event type "Example_for_web2" which has the index of web, access_combined source type. All the field names match my Splunk environment field names for that Index. 
+<img width="345" height="917" alt="image" src="https://github.com/user-attachments/assets/3f8177f1-f785-4517-a55f-0dd54a443ee4" />
+
+ - we can also verify it matches the field names in the splunk environment
+ <img width="379" height="780" alt="image" src="https://github.com/user-attachments/assets/19183357-f610-41cd-93c7-28bda0fb0a26" />
+
 4. hsdhds
 5. gsggsgs
 6. 
