@@ -81,9 +81,18 @@ Lets see the pivot of **web** Data model in GUI from **settings, Data Models,** 
 <img width="2521" height="637" alt="image" src="https://github.com/user-attachments/assets/272603b4-38b4-43f8-b4be-8b71b78f874d" />
 
 ***********************************************
-<p align="center"> Using Splunk Add-on Builder to Map to Data Models to existings Source Types
+<p align="center"> Using Splunk Add-on Builder to Map to Data Models to Existings Source Types
 
 **********************************************
+
+1. In the Add-on Builder, I clicked **Map to Data Models** then i clicked **New Data Model Mapping**
+https://github.com/KO443/Splunk-power-user-lab-Projects/blob/main/Images/100r.png?raw=true
+
+2. hdhds
+3. hdhdhd
+4. hsdhds
+5. gsggsgs
+6. 
 
 
 
