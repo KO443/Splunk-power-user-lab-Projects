@@ -40,7 +40,7 @@ I edited the permission for this new event type.
 3. After running a search for the new web event type (for example, index=web host=web1), the events are now highlighted in magenta, confirming that the event type and its assigned color are being applied correctly.
 ![web magenta](https://github.com/KO443/Splunk-power-user-lab-Projects/blob/main/Images/100ii.png?raw=true)
 
-4.Using the tstats command, I ran a search to count how many events are stored in the **Web** data model. The results show that the **Web** data model contains **20385** events.
+4. Using the tstats command, I ran a search to count how many events are stored in the **Web** data model. The results show that the **Web** data model contains **20385** events.
 
 ![dm count](https://github.com/KO443/Splunk-power-user-lab-Projects/blob/main/Images/100iii.png?raw=true)
 
@@ -57,3 +57,29 @@ Lets see the pivot of **web** Data model in GUI from **settings, Data Models,** 
 <p align="center"> Using Splunk Add-on Builder to Normalize Data in Splunk
 
 ***********************************
+
+1. To install the CIM add on builder, I went **Home** then clicked **Find More Apps** and then i install the Splunk Add-on Builder forn enterprise environment as shown in screenshot below:
+<img width="575" height="470" alt="image" src="https://github.com/user-attachments/assets/4113d907-5809-430b-a439-bc8dd7fd0f9f" />
+
+<img width="1576" height="910" alt="image" src="https://github.com/user-attachments/assets/65cdcfe0-7686-4fa2-ad48-07581324ee06" />
+
+2. After installing the Add-on, select **New Add-on** button and then this set up page will open
+![createaddon](https://github.com/KO443/Splunk-power-user-lab-Projects/blob/main/Images/100l.png?raw=true)
+
+3. At the top bar, select **Manage Source Types**
+![manage sources type](https://github.com/KO443/Splunk-power-user-lab-Projects/blob/main/Images/100m.png?raw=true)
+
+
+4. After clicking on Manage source types, this page opens and then click **add** , **import from Splunk**
+
+<img width="2541" height="852" alt="image" src="https://github.com/user-attachments/assets/fcee35e0-50fd-4ec5-82ce-c3aeb193f252" />
+
+
+5. dhdhdhdhd
+6. hfhf
+7. jfjhfjh
+8. jfjfj
+9. mfjfj
+
+
+
