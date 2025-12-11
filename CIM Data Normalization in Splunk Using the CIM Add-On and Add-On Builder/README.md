@@ -94,15 +94,32 @@ Lets see the pivot of **web** Data model in GUI from **settings, Data Models,** 
 
 ![DM mapping name](https://github.com/KO443/Splunk-power-user-lab-Projects/blob/main/Images/100s.png?raw=true)
 
-3. After i clicked saved on the left side of the screen, all the field names for the event type "Example_for_web2" which has the index of web, access_combined source type. All the field names match my Splunk environment field names for that Index. 
+3. After i clicked saved on the left side of the Add-on builder, all the field names for the event type "Example_for_web2" which has the index of web, access_combined source type. All the field names match my Splunk environment field names for that Index. 
 <img width="345" height="917" alt="image" src="https://github.com/user-attachments/assets/3f8177f1-f785-4517-a55f-0dd54a443ee4" />
 
  - we can also verify it matches the field names in the splunk environment
  <img width="379" height="780" alt="image" src="https://github.com/user-attachments/assets/19183357-f610-41cd-93c7-28bda0fb0a26" />
 
-4. hsdhds
-5. gsggsgs
-6. 
+4. On the right of the Add-on builder, I will select the Data Model i wish to Map to. To start, I first click on **New Knowledge object**, then for Data Model, i selected **web** which was under **Splunk_SA_CIM**
+
+<img width="2530" height="780" alt="image" src="https://github.com/user-attachments/assets/1378e1a2-011f-4247-b06d-e5727296edbe" />
+
+<img width="1746" height="849" alt="image" src="https://github.com/user-attachments/assets/e1bbfd03-cb5e-45f0-a68e-21314c7d38f0" />
+
+5. The green fields means their field name is one for one correct with the data existing in my splunk environment so there will be no need for field aliases.
+<img width="2531" height="954" alt="image" src="https://github.com/user-attachments/assets/9d7cf870-1c12-44d2-a0b6-21e895ea37fe" />
+
+
+6. To create New Field Aliases for the non-green fields which click on **New Knowledge Object**, and then select **FIELDALIAS**, so that we can Match field names from the access_combined sourcetype to the **web** Data Model.
+
+<img width="546" height="545" alt="image" src="https://github.com/user-attachments/assets/f273a3b3-2c62-420c-90dd-d288eb573d91" />
+
+7. jfjdf
+
+8. kdkdkd
+9. 
+
+
 
 
 
