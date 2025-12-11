@@ -82,7 +82,7 @@ Lets see the pivot of **web** Data model in GUI from **settings, Data Models,** 
 <img width="2521" height="637" alt="image" src="https://github.com/user-attachments/assets/272603b4-38b4-43f8-b4be-8b71b78f874d" />
 
 ***********************************************
-<p align="center"> Using Splunk Add-on Builder to Map to Data Models to Existings Source Types
+<p align="center"> Using Splunk Add-on Builder to Map to Data Models to Existings Source Types / Event Types
 
 **********************************************
 
@@ -123,9 +123,15 @@ Lets see the pivot of **web** Data model in GUI from **settings, Data Models,** 
 
 note: A field alias does not rename the original field; instead, it tells Splunk to treat one field name as if it were another, allowing both names to return the same values. This ensures the data matches CIM’s expected field names without modifying the raw events.
 
-8. 
+8. In a search, this is the event count for the newly created Data Model. I used the datamodel command tstats to count the **web** datamodel.
 
-9. 
+<img width="539" height="455" alt="image" src="https://github.com/user-attachments/assets/bf34f3bd-4cb9-4118-b823-fbabce93878b" />
+
+9. To check that from  Settings, I went to **settings**, **Data Model**, **web** and then select **pivot** (top right)
+and then **web**. We can see the event count to what i got in the serach are identical.
+![pivot of web](https://github.com/KO443/Splunk-power-user-lab-Projects/blob/main/Images/100z.png?raw=true)
+
+
 
 
 
