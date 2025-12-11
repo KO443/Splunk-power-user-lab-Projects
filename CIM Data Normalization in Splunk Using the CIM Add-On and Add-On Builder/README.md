@@ -57,6 +57,9 @@ Lets see the pivot of **web** Data model in GUI from **settings, Data Models,** 
 
 ***********************************
 
+ In this section of the lab, i will be Mapping the events of sourcetype access_combined to the web data model
+
+
 1. To install the CIM add on builder, I went **Home** then clicked **Find More Apps** and then i install the Splunk Add-on Builder forn enterprise environment as shown in screenshot below:
 <img width="575" height="470" alt="image" src="https://github.com/user-attachments/assets/4113d907-5809-430b-a439-bc8dd7fd0f9f" />
 
@@ -85,6 +88,8 @@ Lets see the pivot of **web** Data model in GUI from **settings, Data Models,** 
 <p align="center"> Using Splunk Add-on Builder to Map to Data Models to Existings Source Types / Event Types
 
 **********************************************
+
+In this section i will be Mapping a few field names of of an Event type i will be creating and Mapping it to that of the **web** data model.
 
 1. In the Add-on Builder, I clicked **Map to Data Models** then i clicked **New Data Model Mapping**
 
