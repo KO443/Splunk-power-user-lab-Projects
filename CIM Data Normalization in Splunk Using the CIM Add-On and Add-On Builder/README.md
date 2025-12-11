@@ -52,7 +52,6 @@ Lets see the pivot of **web** Data model in GUI from **settings, Data Models,** 
 
 
 
-
 ***********************************************
 <p align="center"> Using Splunk Add-on Builder to Normalize Data in Splunk
 
@@ -72,11 +71,15 @@ Lets see the pivot of **web** Data model in GUI from **settings, Data Models,** 
 4. After clicking on Manage source types, this page opens and then click **add** , **import from Splunk**
 <img width="2541" height="852" alt="image" src="https://github.com/user-attachments/assets/fcee35e0-50fd-4ec5-82ce-c3aeb193f252" />
 
-5. As shown in the screenshot, after clicking **Import from Splunk**, 
+5. As shown in the screenshot, after clicking **Import from Splunk**, i changed sourcetype to **access_combined** and then clicked **save**. 
 ![import from splk ](https://github.com/KO443/Splunk-power-user-lab-Projects/blob/main/Images/100o.png?raw=true)
 
-6. hfh
-7. jfjhfjh
+6. on the **Events** column, Events count displays as 39532 for the access_combined source type.
+<img width="2540" height="343" alt="image" src="https://github.com/user-attachments/assets/3b13803a-5544-47f7-a7ad-45205676892a" />
+
+7. Using the search we can also verify that the event count for access_combined is the same number 39532
+<img width="2521" height="637" alt="image" src="https://github.com/user-attachments/assets/272603b4-38b4-43f8-b4be-8b71b78f874d" />
+
 8. jfjfj
 9. mfjfjdfdcfcd
 
