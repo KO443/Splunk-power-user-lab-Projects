@@ -110,11 +110,13 @@ Lets see the pivot of **web** Data model in GUI from **settings, Data Models,** 
 <img width="2531" height="954" alt="image" src="https://github.com/user-attachments/assets/9d7cf870-1c12-44d2-a0b6-21e895ea37fe" />
 
 
-6. To create New Field Aliases for the non-green fields which click on **New Knowledge Object**, and then select **FIELDALIAS**, so that we can Match field names from the access_combined sourcetype to the **web** Data Model.
+6. To create New Field Aliases for the non-green fields which will need field aliases to normalize the data, I clicked on **New Knowledge Object**, and then selected **FIELDALIAS**, so that we can Match field names from the Event type field  to the **web** Data Model.
 
 <img width="546" height="545" alt="image" src="https://github.com/user-attachments/assets/f273a3b3-2c62-420c-90dd-d288eb573d91" />
 
-7. jfjdf
+7.I add the fields from the Event type and the data Model to so than an alias can create an Alias 
+click ok after adding the field and click new knowledge object to add another 
+the click Done (top right) to move to Validate & Package
 
 8. kdkdkd
 9. 
