@@ -69,17 +69,16 @@ Lets see the pivot of **web** Data model in GUI from **settings, Data Models,** 
 3. At the top bar, select **Manage Source Types**
 ![manage sources type](https://github.com/KO443/Splunk-power-user-lab-Projects/blob/main/Images/100m.png?raw=true)
 
-
 4. After clicking on Manage source types, this page opens and then click **add** , **import from Splunk**
-
 <img width="2541" height="852" alt="image" src="https://github.com/user-attachments/assets/fcee35e0-50fd-4ec5-82ce-c3aeb193f252" />
 
+5. As shown in the screenshot, after clicking **Import from Splunk**, 
+![import from splk ](https://github.com/KO443/Splunk-power-user-lab-Projects/blob/main/Images/100o.png?raw=true)
 
-5. dhdhdhdhd
-6. hfhf
+6. hfh
 7. jfjhfjh
 8. jfjfj
-9. mfjfj
+9. mfjfjdfdcfcd
 
 
 
