@@ -27,15 +27,13 @@ In this repository, I cover demonstrations of several core Splunk topics, such a
 
 7. Creating field aliases, building calculated fields, and configuring workflow actions.
 
-8. Additional demonstrations of creating tags and macros in Splunk.
+8. Creating Alerts and Cron scheduled Reports in Splunk.
 
-9. Creating Alerts and Cron scheduled Reports in Splunk.
+9. Creating a Home Dashboard in Splunk with Generated Reports, Managed Tokens, and Interactive Drilldown Panels.
 
-10. Creating a Home Dashboard in Splunk with Generated Reports, Managed Tokens, and Interactive Drilldown Panels.
+10. CIM Data Normalization in Splunk Using the CIM Add-On and Add-On Builder.
 
-11. CIM Data Normalization in Splunk Using the CIM Add-On and Add-On Builder.
-
-12. Advanced Splunk Data Visualizations: Timecharts, Trendlines, Trellis, Geomaps & Dashboard Integration.
+11. Advanced Splunk Data Visualizations: Timecharts, Trendlines, Trellis, Geomaps & Dashboard Integration.
    
 *********************
 
