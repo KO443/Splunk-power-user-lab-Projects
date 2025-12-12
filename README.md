@@ -33,7 +33,9 @@ In this repository, I cover demonstrations of several core Splunk topics, such a
 
 10. Creating a Home Dashboard in Splunk with Generated Reports, Managed Tokens, and Interactive Drilldown Panels.
 
-11. CIM Data Normalization in Splunk Using the CIM Add-On and Add-On Builder
+11. CIM Data Normalization in Splunk Using the CIM Add-On and Add-On Builder.
+
+12. Advanced Splunk Data Visualizations: Timecharts, Trendlines, Trellis, Geomaps & Dashboard Integration.
    
 *********************
 
