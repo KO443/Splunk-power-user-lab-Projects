@@ -15,7 +15,7 @@ It next applies a where filter to keep only events where reason exists (| where 
 The Home Dashboard is initially set to a light theme. To switch to dark mode, click the Edit button at the top right and toggle between the light and dark themes based on your preference. Open link in a new tab to see the LOg_level, Reason and Dates all displayed on my dashboard.
 ![homedash set up](https://github.com/KO443/Splunk-power-user-lab-Projects/blob/main/Images/99d.png?raw=true)
 
-To make he newly set up dashboard a Home Dashboard, click on the 3 dot at top right corner 
+To make the newly set up dashboard a Home Dashboard, click on the 3 dot at top right corner 
 ![make homedash](https://github.com/KO443/Splunk-power-user-lab-Projects/blob/main/Images/99dc.png?raw=true)
 
 
