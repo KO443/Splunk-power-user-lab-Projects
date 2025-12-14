@@ -81,9 +81,20 @@ In this section of the lab, I use the **trendline command** and geomap-related c
 
 <img width="2537" height="955" alt="image" src="https://github.com/user-attachments/assets/b1a3ff1e-2d66-4b3e-b756-6818e12fe641" />
 
+2. For the map view, I used the **Cluster Map** visualization to display geographic data. The search began with **inputlookup** to load records from the peopleinfo.csv lookup file. I then applied the **geostats** command to aggregate **counts** by email and map them using the lat and long fields. The **globallimit=10** parameter restricted the output to the top ten global locations, resulting in a cleaner and more focused visualization. Hovering over the locations will give  
+more details like longititude,latitude and email address.
+<img width="1453" height="976" alt="image" src="https://github.com/user-attachments/assets/e514a43c-5e00-4daf-801c-70b274d39485" />
 
-2. hfhd
-3. hdjhdhd
+3. In this series of search strings showcasing results by each query , I filtered for purchase actions from the **web** index and used the **iplocation** command to enrich each event with geographic data based on the **clientip** field. I then applied stats to count events by action and used **addtotals** command to include a labeled total row for purchases, placing the label in the longitude field. The results were visualized using a Cluster Map to highlight global purchase activity.
+<img width="2543" height="947" alt="image" src="https://github.com/user-attachments/assets/970aaf6c-954e-4d96-b2fc-3950a6b9c2b2" />
+
+<img width="2543" height="723" alt="image" src="https://github.com/user-attachments/assets/165758f3-0143-4879-bd9a-ca44f5d81d09" />
+
+<img width="2527" height="791" alt="image" src="https://github.com/user-attachments/assets/4a60bdef-4b88-4787-a192-e465b737a1b7" />
+
+<br><br>
+In this context, **row=f and col=t** tell Splunk to add only a totals column rather than a totals row. By disabling the totals row and enabling the totals column, the command ensures that each row displays its overall total without adding an extra summary row at the bottom, keeping the results focused and easier to read
+
 4. jdjfdj
 
 
