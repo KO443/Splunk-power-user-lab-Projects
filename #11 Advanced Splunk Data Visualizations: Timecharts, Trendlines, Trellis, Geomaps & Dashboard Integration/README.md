@@ -46,8 +46,16 @@ In this section of the Lab i will be Making a visualization for number of **purc
 
 ![111j](https://github.com/KO443/Splunk-power-user-lab-Projects/blob/main/Images/111j.png?raw=true)
 
-3. hhfdhfd
+3. I changed the background color of **‘Total Purchase Price’** to green by clicking on **Color Mode**, and then I added it to the existing **‘Weekly Info’** dashboard. The dashboard is set up with the top panel displaying the **Total Purchase price**, a column chart showing the **Actions taken by shoppers by day**, and a pie chart below it showcasing the **Actions taken by shoppers by week**.
+![111k](https://github.com/KO443/Splunk-power-user-lab-Projects/blob/main/Images/111k.png?raw=true)
+
+![111L](https://github.com/KO443/Splunk-power-user-lab-Projects/blob/main/Images/111l.png?raw=true)
+
+
+
 4. hfhf
+5. jdsjsd
+6. jjkdk
 
 
 
