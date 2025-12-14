@@ -51,11 +51,10 @@ In this section of the Lab i will be Making a visualization for number of **purc
 
 ![111L](https://github.com/KO443/Splunk-power-user-lab-Projects/blob/main/Images/111l.png?raw=true)
 
+***********
+***********
 
 
-4. hfhf
-5. jdsjsd
-6. jjkdk
 
 
 
