@@ -100,6 +100,6 @@ In this context, **row=f and col=t** tell Splunk to add only a totals column rat
 ![111v](https://github.com/KO443/Splunk-power-user-lab-Projects/blob/main/Images/111v.png?raw=true)
 
 5. My Dashboard for all the serach queries i created in this Section. Dashbopard Panels **"Total Ecvents week to date", "Region with most lease of sale" & "Region with most amount of sale"**
-
+![111w](https://github.com/KO443/Splunk-power-user-lab-Projects/blob/main/Images/111w.png?raw=true)
 
  
