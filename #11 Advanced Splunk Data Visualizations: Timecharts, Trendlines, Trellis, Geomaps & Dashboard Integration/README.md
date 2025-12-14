@@ -36,9 +36,19 @@ Additionally, Splunk’s **Trellis** layout allows me to split search results in
 
 ***********
 
-In this section of the Lab i will be Making a visualization for number of purchases which is one of the field Values of **action field**.
+In this section of the Lab i will be Making a visualization for number of **purchases** which is one of the field Values of **action field**.
 
-1. ![111i](https://github.com/KO443/Splunk-power-user-lab-Projects/blob/main/Images/111i.png?raw=true)
+1. I started by running a search query that returned the total number of **purchases**. I then used the **Single Value** visualization in Splunk to display this result, which showed a total of **5,737** purchases.
+
+![111i](https://github.com/KO443/Splunk-power-user-lab-Projects/blob/main/Images/111i.png?raw=true)
+
+2. Next, I configured the color range in the Format panel. I set values from **0 to 100 sales** to display in **red**, and anything above **100** to appear in **green**. I also added a caption to the Single Value visualization, labeling it as **"Total Purchases Made"** and this was done by going to General and then Caption in the format panel.
+
+![111j](https://github.com/KO443/Splunk-power-user-lab-Projects/blob/main/Images/111j.png?raw=true)
+
+3. hhfdhfd
+4. hfhf
+
 
 
 
