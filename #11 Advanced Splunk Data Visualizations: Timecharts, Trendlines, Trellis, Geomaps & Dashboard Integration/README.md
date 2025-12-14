@@ -30,13 +30,16 @@ Additionally, Splunk’s **Trellis** layout allows me to split search results in
 7. I turned off the **Trellis layout**, returning the chart to its original view. After that, I saved it to a new dashboard titled **‘Weekly Info’** and named the panel **‘Action Taken by Shoppers’**. Finally, I selected Save to Dashboard to store the updated visualization as Dashboard.
 ![111g](https://github.com/KO443/Splunk-power-user-lab-Projects/blob/main/Images/111g.png?raw=true)
 
-8. I made a pie chart Visualization for all the actions which inlcuded purchase action,view,remove, purchase,add to cart & change quantity. I used a very SPL query by going into index of web and using the stats command with the **count argument** to get the statistics for actions. I also added this Pie chart to my existing Dashboard  **‘Weekly Info’** .
+8. I created a pie chart visualization to display all user actions, including purchase, view, remove, add to cart, and change quantity. To generate the data, I ran a simple SPL query against the **web** index using the stats command with the count function to aggregate action totals. I then added this pie chart to my existing dashboard, **‘Weekly Info'**.
 
 ![111h](https://github.com/KO443/Splunk-power-user-lab-Projects/blob/main/Images/111h.png?raw=true)
 
-9. hshs
-10. jjndjd
-11. jsjsj
+***********
+
+In this section of the Lab i will be Making a visualization for number of purchases which is one of the field Values of **action field**.
+
+1. ![111i](https://github.com/KO443/Splunk-power-user-lab-Projects/blob/main/Images/111i.png?raw=true)
+
 
 
 
