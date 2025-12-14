@@ -77,7 +77,14 @@ In this section of the lab, I use the **trendline command** and geomap-related c
 <img width="2547" height="512" alt="image" src="https://github.com/user-attachments/assets/91544d58-19b8-4397-a327-692ea6d6d530" />
 
 ***
-1. 
+1. For this search, I used the lookup command to reference one of my saved CSV files.I used inputlookup to load data from the peoplesinfo.csv lookup file, and then applied the iplocation command to the ip_address field to enrich each record with geographic details such as country, region, city, and coordinates based on the IP address. **The ip location command auto generates a city column and interpretes the location to city**
+
+<img width="2537" height="955" alt="image" src="https://github.com/user-attachments/assets/b1a3ff1e-2d66-4b3e-b756-6818e12fe641" />
+
+
+2. hfhd
+3. hdjhdhd
+4. jdjfdj
 
 
 
