@@ -3,7 +3,7 @@ Splunk Search Processing Language (SPL) Guide Sheet
 -
 
 
-*I did not come up with this guide, i found all of this on the internet and doumented it on here for the knowledge*
+*"I didn’t create this SPL guide myself; I compiled it from resources I found online and documented it here as a reference for my Splunk work.*
 
 *********************
 Basic Commands
