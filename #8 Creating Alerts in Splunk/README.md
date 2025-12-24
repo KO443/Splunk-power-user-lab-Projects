@@ -61,6 +61,7 @@ I had previously done a similar Lab like this where i monitored my **'Local wind
 ![sc of search query](https://github.com/KO443/Splunk-power-user-lab-Projects/blob/main/Images/8gii.png?raw=true)
 
 7. then i went ahead and saved this as a Report (savingh as an alert is more practical but i was on a Splunki free Licence)
+   
 ![sc of my saved report](https://github.com/KO443/Splunk-power-user-lab-Projects/blob/main/Images/8h.png?raw=true)
 
 
