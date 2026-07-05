@@ -39,10 +39,11 @@ After downloading the tutorial data zip. You unzip the file and it has our pract
 ![screenshot_ of practice data](https://github.com/KO443/Splunk-lab-Projects/blob/main/Images/practice%20data.png?raw=true)
 <br> 
 <br> 
-now i will be downloading 2 cisco addons to my splunk emvironment
+now i will be downloading 2 cisco addons to my splunk environment
 <br> 
 <br> 
 In Splunk, at the top left,go to "find more apps"
+
 ![screenshot_ of findmoreapps](https://github.com/KO443/Splunk-lab-Projects/blob/main/Images/1b.png?raw=true)
 <br> 
 <br> 
